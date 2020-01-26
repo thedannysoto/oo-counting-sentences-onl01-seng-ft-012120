@@ -20,7 +20,8 @@ class String
     split_array.each do |x|
       if x != ""
         sentence_array << x
-      end 
+      end
+    end   
     return sentence_array.length
   end
 end
